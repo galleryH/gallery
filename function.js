@@ -1,5 +1,7 @@
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "/gallery/randimgfolder", true);
+// it has /gallery at the start because of a github thing, and the only reason im writing this is because of another github thing :( //
+
 xhr.responseType = 'document';
 xhr.onload = () => {
   var mediaList = []
