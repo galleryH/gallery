@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "/randimgfolder", true);
+xhr.open("GET", "/gallery/randimgfolder", true);
 xhr.responseType = 'document';
 xhr.onload = () => {
   var mediaList = []
